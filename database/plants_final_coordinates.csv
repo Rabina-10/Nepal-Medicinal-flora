@@ -1,0 +1,96 @@
+﻿S.N.,Common Name,Scientific Name,medicinal use,Province,District,Latitude,Longitude,Confidence,Coordinate_Source,Distance_from_district_centre_km,Locality,Year,GBIF_key,GBIF_Nepal_records_found
+1,Ghodtapre,Centella asiatica,1. Wound care and skin health,Bagmati,Kathmandu,27.7,85.3,High,"GBIF record, inside district area (locality text names district)",2.3,Kathmandu District,2001.0,2825611125.0,28
+2,Bojho,Acorus calamus,2. Digestive problems and cough,Koshi,Ilam,26.91,87.93,Approximate (district centre),Approx. district centre (no verified record),,,,,9
+3,Kurilo,Asparagus racemosus,3. Digestive and reproductive health,Bagmati,Sindhupalchok,27.95,85.69,Approximate (district centre),Approx. district centre (no verified record),,,,,40
+4,Akashbeli,Cuscuta reflexa,4. Skin and digestive problems,Koshi,Jhapa,26.63,87.89,Approximate (district centre),Approx. district centre (no verified record),,,,,31
+5,Apamarga,Achyranthes aspera,5. Digestive problems and skin care,Lumbini,Dang,28.034895,82.378619,Medium,"GBIF record, inside district area",2.7,,1986.0,4920476816.0,39
+6,Tulsi,Ocimum tenuiflorum,"6. Cough, cold, and sore throat",Bagmati,Kathmandu,27.705777,85.291758,Medium,"GBIF record, inside district area",2.8,,2003.0,4920476824.0,6
+7,Neem,Azadirachta indica,7. Skin care and oral hygiene,Madhesh,Parsa,27.13,84.88,Approximate (district centre),Approx. district centre (no verified record),,,,,20
+8,Amala,Phyllanthus emblica,8. Digestive health,Bagmati,Chitwan,27.5476,84.3068,High,"GBIF record, inside district area (locality text names district)",19.4,Chitwan National Park,1996.0,3710570433.0,35
+9,Harro,Terminalia chebula,9. Constipation and digestion,Koshi,Dhankuta,26.98,87.34,Approximate (district centre),Approx. district centre (no verified record),,,,,5
+10,Barro,Terminalia bellirica,10. Digestive problems and cough,Koshi,Sunsari,26.65,87.18,Approximate (district centre),Approx. district centre (no verified record),,,,,5
+11,Timur,Zanthoxylum armatum,11. Toothache and digestion,Koshi,Sankhuwasabha,27.37,87.22,Approximate (district centre),Approx. district centre (no verified record),,,,,37
+12,Tejpat,Cinnamomum tamala,12. Digestion and appetite,Koshi,Ilam,26.91,87.93,Approximate (district centre),Approx. district centre (no verified record),,,,,22
+13,Ritha,Sapindus mukorossi,13. Hair and skin cleansing,Bagmati,Makwanpur,27.43,85.03,Approximate (district centre),Approx. district centre (no verified record),,,,,7
+14,Sarpagandha,Rauvolfia serpentina,14. High blood pressure; medical supervision required,Lumbini,Banke,28.05,81.62,Approximate (district centre),Approx. district centre (no verified record),,,,,31
+15,Chiraito,Swertia chirayita,15. Fever and digestion,Koshi,Ilam,26.9,87.92,Medium,"GBIF record, inside district area",1.5,,2012.0,3818302265.0,45
+16,Satuwa,Paris polyphylla,16. Inflammation and wound care,Gandaki,Kaski,28.2519,83.9692,High,"GBIF record, inside district area (locality text names district)",0.9,Kaski Distr.: Seti Khola [= Seti Nadi],1954.0,1265609469.0,61
+17,Kutki,Neopicrorhiza scrophulariiflora,17. Digestive and liver complaints,Karnali,Jumla,29.27,82.18,Approximate (district centre),Approx. district centre (no verified record),,,,,15
+18,Jatamasi,Nardostachys grandiflora,18. Relaxation and sleep,Karnali,Jumla,29.27,82.18,Approximate (district centre),Approx. district centre (no verified record),,,,,10
+19,Sugandhawal,Valeriana jatamansi,19. Sleep problems,Gandaki,Kaski,28.26,83.97,Approximate (district centre),Approx. district centre (no verified record),,,,,13
+20,Pakhanbed,Bergenia ciliata,20. Urinary complaints,Gandaki,Kaski,28.395339,83.727186,Low - verify,"GBIF record, near district edge - verify",28.1,,2018.0,2282997571.0,6
+21,Atis,Aconitum heterophyllum,21. Fever and digestion,Karnali,Jumla,29.27,82.18,Approximate (district centre),Approx. district centre (no verified record),,,,,3
+22,Bikh/Bis,Aconitum spicatum,22. Pain relief; highly toxic plant,Karnali,Jumla,29.162,82.176,Medium,"GBIF record, inside district area",12.0,"Giri Daha [Lake Giri, Gidi Daha]; 11000'",1952.0,3330255266.0,162
+23,Somlata,Ephedra gerardiana,23. Respiratory complaints; potential toxicity,Gandaki,Mustang,28.773,83.674,Medium,"GBIF record, inside district area",29.6,,1978.0,4539314312.0,46
+24,Panch Aunle,Dactylorhiza hatagirea,24. General weakness,Karnali,Jumla,29.25,82.25,High,"GBIF record, inside district area (locality text names district)",7.1,"Bhurchula Lekh; W Nepal, Jumla/Mid-Western Region",,615307268.0,21
+25,Padamchal,Rheum australe,25. Constipation and digestion,Gandaki,Manang,28.58624,84.179286,Medium,"GBIF record, inside district area",18.1,,1983.0,4920478852.0,28
+26,Chulthi Amilo,Rheum nobile,26. Medicinal use requires verification,Gandaki,Manang,28.67,84.02,Approximate (district centre),Approx. district centre (no verified record),,,,,13
+27,Pipla,Piper longum,27. Cough and respiratory complaints,Koshi,Morang,26.65,87.45,Approximate (district centre),Approx. district centre (no verified record),,,,,7
+28,Ban Bhanta,Podophyllum hexandrum,28. Potentially toxic; avoid self-treatment,Karnali,Jumla,29.27,82.18,Approximate (district centre),Approx. district centre (no verified record),,,,,42
+29,Bajradanti,Potentilla fulgens,29. Toothache and gum care,Koshi,Dhankuta,26.98,87.34,Approximate (district centre),Approx. district centre (no verified record),,,,,8
+30,Majitho,Rubia manjith,30. Skin problems and red dye,Bagmati,Lalitpur,27.704483,85.382217,Medium,"GBIF record, inside district area",7.2,,1981.0,4920477940.0,30
+31,Sugandhakokila,Cinnamomum tenuipile,31. Digestive complaints,Bagmati,Makwanpur,27.43,85.03,Approximate (district centre),Approx. district centre (no verified record),,,,,7
+32,Gurjo,Tinospora sinensis,32. Traditional wellness use; verify evidence,Lumbini,Dang,28.05,82.4,Approximate (district centre),Approx. district centre (no verified record),,,,,1
+33,Gurjo,Tinospora cordifolia,33. Fever and digestion,Lumbini,Dang,28.05,82.4,Approximate (district centre),Approx. district centre (no verified record),,,,,3
+34,Haldi,Curcuma longa,34. Inflammation and digestion,Madhesh,Parsa,27.13,84.88,Approximate (district centre),Approx. district centre (no verified record),,,,,3
+35,Aduwa/Ginger,Zingiber officinale,35. Nausea and indigestion,Koshi,Jhapa,26.63,87.89,Approximate (district centre),Approx. district centre (no verified record),,,,,8
+36,Lasun/Garlic,Allium sativum,36. Traditional cardiovascular and respiratory uses,Koshi,Morang,26.65,87.45,Approximate (district centre),Approx. district centre (no verified record),,,,,3
+37,Ban Lasun,Allium wallichii,37. Medicinal use requires verification,Karnali,Jumla,29.27,82.18,Approximate (district centre),Approx. district centre (no verified record),,,,,108
+38,Pudina,Mentha arvensis,38. Indigestion and gas,Koshi,Ilam,26.91,87.93,Approximate (district centre),Approx. district centre (no verified record),,,,,1
+39,Lemongrass,Cymbopogon flexuosus,39. Herbal tea; medicinal use requires verification,Koshi,Jhapa,26.63,87.89,Approximate (district centre),Approx. district centre (no verified record),,,,,2
+40,Ashwagandha,Withania somnifera,40. Stress and sleep,Gandaki,Kaski,28.26,83.97,Approximate (district centre),Approx. district centre (no verified record),,,,,3
+41,Ghritkumari,Aloe vera,41. Minor skin irritation,Madhesh,Parsa,27.13,84.88,Approximate (district centre),Approx. district centre (no verified record),,,,,1
+42,Ghodjibrey,Ageratum conyzoides,43. Minor wounds and skin problems,Koshi,Ilam,26.91,87.93,Approximate (district centre),Approx. district centre (no verified record),,,,,1200
+43,Banmara,Ageratina adenophora,44. No recommended use; invasive plant,Koshi,Ilam,26.854942,88.082344,Medium,"GBIF record, inside district area",16.3,,2026.0,6163172643.0,1200
+44,Sisnu,Urtica dioica,45. Traditional uses require verification,Koshi,Ilam,26.91,87.93,Approximate (district centre),Approx. district centre (no verified record),,,,,45
+45,Dubo,Cynodon dactylon,46. Minor wounds and urinary complaints,Bagmati,Chitwan,27.508121,84.260084,Medium,"GBIF record, inside district area",25.0,,2024.0,5110464755.0,18
+46,Chiraito group,Swertia angustifolia,47. Digestive complaints and fever,Koshi,Ilam,26.91,87.93,Approximate (district centre),Approx. district centre (no verified record),,,,,22
+47,Titepati,Artemisia indica,48. Digestive complaints and menstrual discomfort,Koshi,Ilam,26.916667,87.933333,Medium,"GBIF record, inside district area",0.8,below Mai Majuwa - Mai Pokhari - Dhara Pani,,4521432346.0,33
+48,Mugwort,Artemisia vulgaris,49. Digestive complaints and menstrual discomfort,Bagmati,Lalitpur,27.721755,85.276045,Medium,"GBIF record, inside district area",7.2,,2022.0,3925139723.0,5
+49,Dhurseli,Rhododendron arboreum,50. Aromatic traditional preparations,Karnali,Jumla,29.133333,82.5,High,"GBIF record, inside district area (locality text names district)",34.6,Camp Site - Quadrat #7 - Chaarikot - saddle - Rimi,,5054079548.0,519
+50,Sunpati,Rhododendron anthopogon,51. Respiratory complaints and aromatic use,Karnali,Jumla,29.343056,82.160556,High,"GBIF record, inside district area (locality text names district)",8.3,"Nepal:Karnali Zone:Jumla District:Daphe Bhanjyan, N of Jumla",2008.0,575295893.0,250
+51,Lauth Salla,Taxus wallichiana,52. Source of cancer-medicine compounds; toxic plant,Karnali,Jumla,29.27,82.18,Approximate (district centre),Approx. district centre (no verified record),,,,,37
+52,Yarsagumba,Ophiocordyceps sinensis,53. Edible mushroom; not a proven treatment,Karnali,Jumla,29.277154,82.202272,Medium,"GBIF record, inside district area",2.3,,2015.0,1837095186.0,14
+53,Gucchi Chyau,Morchella conica,54. Medicinal use depends on lichen species,Gandaki,Manang,28.67,84.02,Approximate (district centre),Approx. district centre (no verified record),,,,,0
+54,Jhyau,Parmelia spp.,55. Digestive complaints and diarrhoea,Koshi,Morang,26.65,87.45,Approximate (district centre),Approx. district centre (no verified record),,,,,91
+55,Bel,Aegle marmelos,56. Guava leaves traditionally used for diarrhoea,Madhesh,Bara,27.05,85.0,Approximate (district centre),Approx. district centre (no verified record),,,,,12
+56,Amba,Psidium guajava,57. Digestive and throat complaints,Bagmati,Chitwan,27.553572,84.339425,Medium,"GBIF record, inside district area",16.1,,2025.0,5154217738.0,63
+57,Kaphal,Myrica esculenta,58. Cough and respiratory complaints,Bagmati,Chitwan,27.58,84.5,Approximate (district centre),Approx. district centre (no verified record),,,,,49
+58,Asuro,Justicia adhatoda,59. Highly toxic; avoid self-treatment,Koshi,Jhapa,26.63,87.89,Approximate (district centre),Approx. district centre (no verified record),,,,,22
+59,Dhaturo,Datura metel,60. Toxic latex; avoid self-treatment,Koshi,Sunsari,26.811944,87.268551,Low - verify,"GBIF record, near district edge - verify",20.0,"Bhote pul, Dharan, eastern Nepal.",1972.0,2301715075.0,61
+60,Aak,Calotropis gigantea,61. Hair and scalp care,Koshi,Ilam,26.790811,88.169383,Low - verify,"GBIF record, near district edge - verify",27.2,,2026.0,6399037669.0,69
+61,Bhringraj,Eclipta prostrata,62. Aromatic use; medicinal claims require verification,Bagmati,Lalitpur,27.601562,85.365296,High,"GBIF record, inside district area (locality text names district)",8.8,"Godawari, central Nepal.",1981.0,2301714762.0,125
+62,Khus,Chrysopogon zizanioides,63. Broom-making; medicinal use unverified,Koshi,Ilam,26.91,87.93,Approximate (district centre),Approx. district centre (no verified record),,,,,8
+63,Amriso,Thysanolaena latifolia,64. Food use; medicinal use requires verification,Bagmati,Kavrepalanchok,27.635268,85.42357,Medium,"GBIF record, inside district area",15.7,,2024.0,5007182055.0,33
+64,Koiralo,Bauhinia variegata,65. Joint pain and swelling,Bagmati,Lalitpur,27.682762,85.286925,Medium,"GBIF record, inside district area",3.6,,2026.0,6195801315.0,16
+65,Simali,Vitex negundo,66. Joint pain and swelling,Bagmati,Lalitpur,27.67,85.32,Approximate (district centre),Approx. district centre (no verified record),,,,,30
+66,Siris,Albizia lebbeck,68. Timber; medicinal use requires verification,Koshi,Sunsari,26.65,87.18,Approximate (district centre),Approx. district centre (no verified record),,,,,6
+67,Sissoo,Dalbergia sissoo,69. Traditional topical resin use,Bagmati,Lalitpur,27.6025,85.3675,High,"GBIF record, inside district area (locality text names district)",8.8,"Nepal:Bagmati Zone:Godavari [Godawari] 29'N, 80'40E",1973.0,1228031288.0,54
+68,Sal,Shorea robusta,70. Digestive and urinary complaints,Lumbini,Dang,28.05,82.4,Approximate (district centre),Approx. district centre (no verified record),,,,,99
+69,Simal,Bombax ceiba,71. Traditional blood-sugar-related use,Madhesh,Bara,27.05,85.0,Approximate (district centre),Approx. district centre (no verified record),,,,,79
+70,Jamun,Syzygium cumini,72. Food use; medicinal use requires verification,Bagmati,Lalitpur,27.703642,85.298928,Medium,"GBIF record, inside district area",4.3,,2023.0,5109795594.0,23
+71,Amaro,Spondias pinnata,73. Digestive and menstrual complaints,Bagmati,Lalitpur,27.67,85.32,Approximate (district centre),Approx. district centre (no verified record),,,,,0
+72,Gurans,Rhododendron arboreum,75. Skin and digestive complaints,Bagmati,Lalitpur,27.627862,85.273862,Medium,"GBIF record, inside district area",6.5,,2015.0,3859134971.0,519
+73,Chutro,Berberis aristata,76. Medicinal use requires species verification,Karnali,Jumla,29.083334,82.366665,Medium,"GBIF record, inside district area",27.6,Karnali: Panlotbas/Ranga Chauthaka,1952.0,1055644466.0,247
+74,Atis (verify name),Delphinium himalayae,77. Food and traditional use; correct processing needed,Karnali,Jumla,29.46,82.13,Medium,"GBIF record, inside district area",21.7,"Ghurchi lekh, between Lumsa and Nurma, western Nepal.",1952.0,2269395207.0,14
+75,Bhyakur,Dioscorea deltoidea,78. Toxic plant; avoid self-treatment,Karnali,Jumla,29.416667,82.127222,High,"GBIF record, inside district area (locality text names district)",17.1,"Nepal:Karnali Zone:Jumla District:Above Bumra, towards Chautha",2008.0,574977479.0,48
+76,Kalo Musali,Curculigo orchioides,80. Traditional tonic use; verify Nepal records,Karnali,Jumla,29.27,82.18,Approximate (district centre),Approx. district centre (no verified record),,,,,4
+77,Safed Musali,Chlorophytum borivilianum,81. Urinary complaints and swelling,Koshi,Morang,26.65,87.45,Approximate (district centre),Approx. district centre (no verified record),,,,,0
+78,Punarnava,Boerhavia diffusa,82. Traditional external use; verify evidence,Bagmati,Lalitpur,27.654198,85.324752,Medium,"GBIF record, inside district area",1.8,,2023.0,4413394019.0,14
+79,Patharchatta,Kalanchoe pinnata,83. Memory and concentration support,Koshi,Dhankuta,26.98,87.34,Approximate (district centre),Approx. district centre (no verified record),,,,,21
+80,Brahmi,Bacopa monnieri,84. Wound care and memory support,Koshi,Ilam,26.91,87.93,Approximate (district centre),Approx. district centre (no verified record),,,,,1
+81,Mandukparni,Centella asiatica,85. High blood pressure; medical supervision required,Koshi,Ilam,26.91,87.93,Approximate (district centre),Approx. district centre (no verified record),,,,,28
+82,Sarpagandha,Rauvolfia serpentina,86. Young shoots used as food,Koshi,Ilam,26.91,87.93,Approximate (district centre),Approx. district centre (no verified record),,,,,31
+83,Bans,Bambusa spp.,87. Medicinal use requires verification,Koshi,Ilam,26.91,87.93,Approximate (district centre),Approx. district centre (no verified record),,,,,32
+84,Chilaune,Schima wallichii,88. Medicinal use requires verification,Koshi,Ilam,27.058662,88.02504,Medium,"GBIF record, inside district area",19.0,,2026.0,6162857155.0,66
+85,Uttis,Alnus nepalensis,89. Medicinal use unverified; latex may be harmful,Koshi,Ilam,27.052969,87.916563,Medium,"GBIF record, inside district area",16.0,,2022.0,3961097509.0,72
+86,Khirro,Sapium insigne,90. Food and timber,Koshi,Ilam,26.91,87.93,Approximate (district centre),Approx. district centre (no verified record),,,,,3
+87,Katus,Castanopsis indica,91. Skin care and topical preparations,Koshi,Ilam,26.91,87.93,Approximate (district centre),Approx. district centre (no verified record),,,,,17
+88,Chiuri,Diploknema butyracea,92. Skin and digestive complaints,Koshi,Ilam,26.91,87.93,Approximate (district centre),Approx. district centre (no verified record),,,,,11
+89,Talispatra,Abies spectabilis,94. Medicinal use requires verification,Karnali,Jumla,29.343056,82.160556,High,"GBIF record, inside district area (locality text names district)",8.3,"Nepal:Karnali Zone:Jumla District:Daphe Bhanjyan, N of Jumla",2008.0,575002396.0,158
+90,Bhojpatra,Betula utilis,95. Aromatic smoke and fumigation,Karnali,Jumla,29.343056,82.160556,High,"GBIF record, inside district area (locality text names district)",8.3,"Nepal:Karnali Zone:Jumla District:Daphe Bhanjyan, N of Jumla",2008.0,575297954.0,114
+91,Dhupi,Juniperus indica,96. Culinary use; traditional digestive support,Karnali,Jumla,29.27,82.18,Approximate (district centre),Approx. district centre (no verified record),,,,,181
+92,Jimbu,Allium hypsistum,97. Indigestion and gas,Koshi,Dhankuta,26.98,87.34,Approximate (district centre),Approx. district centre (no verified record),,,,,4
+93,Ban Ajwain,Carum carvi,98. Indigestion and gas,Koshi,Ilam,26.91,87.93,Approximate (district centre),Approx. district centre (no verified record),,,,,14
+94,Jwano,Trachyspermum ammi,99. Digestive and blood-sugar-related use,Koshi,Ilam,26.91,87.93,Approximate (district centre),Approx. district centre (no verified record),,,,,1
+95,Methi,Trigonella foenum-graecum,100. Digestive and appetite support,Koshi,Ilam,26.91,87.93,Approximate (district centre),Approx. district centre (no verified record),,,,,48

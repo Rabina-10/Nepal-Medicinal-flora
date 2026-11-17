@@ -1,0 +1,349 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Submit Observation | Nepal Medicinal Flora</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+          rel="stylesheet">
+
+    <style>
+        body {
+            background: #f5f8f3;
+            font-family: Arial, sans-serif;
+        }
+
+        .navbar {
+            background: #2f6b45;
+        }
+
+        .page-header {
+            background: #e4efdf;
+            border-radius: 16px;
+            padding: 30px;
+        }
+
+        .form-card {
+            background: white;
+            border: none;
+            border-radius: 16px;
+        }
+
+        .form-label {
+            font-weight: 600;
+        }
+
+        .required {
+            color: #c0392b;
+        }
+
+        footer {
+            background: #e4efdf;
+        }
+
+        #photoPreview {
+            max-width: 100%;
+            max-height: 250px;
+            border-radius: 12px;
+            display: none;
+        }
+    </style>
+</head>
+
+<body>
+
+<nav class="navbar navbar-expand-lg navbar-dark">
+    <div class="container">
+        <a class="navbar-brand fw-bold" href="index.html">
+            🌿 Nepal Medicinal Flora
+        </a>
+
+        <button class="navbar-toggler" type="button"
+                data-bs-toggle="collapse" data-bs-target="#navbarMenu"
+                aria-controls="navbarMenu" aria-expanded="false"
+                aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarMenu">
+            <div class="navbar-nav ms-auto">
+                <a class="nav-link" href="index.html">Home</a>
+                <a class="nav-link" href="plants.html">Plant Database</a>
+                <a class="nav-link" href="map.html">Distribution Map</a>
+                <a class="nav-link active" href="observation.html">Submit Observation</a>
+            </div>
+        </div>
+    </div>
+</nav>
+
+<main class="container py-5">
+
+    <section class="page-header mb-4">
+        <h1 class="fw-bold">Submit a Plant Observation</h1>
+        <p class="mb-2">
+            Help document medicinal plant locations and support biodiversity monitoring.
+        </p>
+        <small class="text-muted">
+            Demonstration form — submissions are not saved to a database.
+        </small>
+    </section>
+
+    <div class="row g-4">
+
+        <div class="col-lg-8">
+            <section class="card form-card shadow-sm p-4">
+                <form id="observationForm">
+
+                    <h2 class="h4 mb-3">Observation Details</h2>
+
+                    <div class="mb-3">
+                        <label for="plantName" class="form-label">
+                            Plant Name <span class="required">*</span>
+                        </label>
+                        <select class="form-select" id="plantName" name="plantName" required>
+                            <option value="">Select a medicinal plant</option>
+                            <option value="Chiraito">Chiraito</option>
+                            <option value="Tulsi">Tulsi</option>
+                            <option value="Jatamansi">Jatamansi</option>
+                            <option value="Other">Other / Unknown Plant</option>
+                        </select>
+                    </div>
+
+                    <div class="mb-3 d-none" id="otherPlantGroup">
+                        <label for="otherPlant" class="form-label">Enter Plant Name</label>
+                        <input type="text" class="form-control" id="otherPlant"
+                               placeholder="Enter the plant name">
+                    </div>
+
+                    <div class="row g-3">
+                        <div class="col-md-6">
+                            <label for="province" class="form-label">
+                                Province <span class="required">*</span>
+                            </label>
+                            <select class="form-select" id="province" required>
+                                <option value="">Select province</option>
+                                <option>Koshi</option>
+                                <option>Madhesh</option>
+                                <option>Bagmati</option>
+                                <option>Gandaki</option>
+                                <option>Lumbini</option>
+                                <option>Karnali</option>
+                                <option>Sudurpashchim</option>
+                            </select>
+                        </div>
+
+                        <div class="col-md-6">
+                            <label for="district" class="form-label">
+                                District <span class="required">*</span>
+                            </label>
+                            <input type="text" class="form-control" id="district"
+                                   placeholder="e.g. Taplejung" required>
+                        </div>
+                    </div>
+
+                    <div class="mt-3 mb-3">
+                        <label for="location" class="form-label">Specific Location</label>
+                        <input type="text" class="form-control" id="location"
+                               placeholder="e.g. nearby forest, village, or hiking trail">
+                    </div>
+
+                    <div class="mb-3">
+                        <label for="observationDate" class="form-label">
+                            Observation Date <span class="required">*</span>
+                        </label>
+                        <input type="date" class="form-control" id="observationDate" required>
+                    </div>
+
+                    <hr class="my-4">
+
+                    <h2 class="h4 mb-3">Plant Condition</h2>
+
+                    <div class="mb-3">
+                        <label for="plantCondition" class="form-label">Observed Condition</label>
+                        <select class="form-select" id="plantCondition">
+                            <option value="">Select condition</option>
+                            <option>Healthy</option>
+                            <option>Flowering</option>
+                            <option>Fruiting</option>
+                            <option>Damaged</option>
+                            <option>Threatened</option>
+                            <option>Unable to determine</option>
+                        </select>
+                    </div>
+
+                    <div class="mb-3">
+                        <label for="plantPhoto" class="form-label">Upload Plant Photo</label>
+                        <input type="file" class="form-control" id="plantPhoto"
+                               accept="image/*">
+                        <div class="form-text">
+                            Image preview only. The photo is not uploaded to a server.
+                        </div>
+                        <img id="photoPreview" class="mt-3" alt="Selected plant photo preview">
+                    </div>
+
+                    <div class="mb-3">
+                        <label for="notes" class="form-label">Additional Notes</label>
+                        <textarea class="form-control" id="notes" rows="4"
+                                  placeholder="Describe the plant, habitat, nearby threats, or other observations..."></textarea>
+                    </div>
+
+                    <div class="mb-3">
+                        <label for="observer" class="form-label">Observer Name (Optional)</label>
+                        <input type="text" class="form-control" id="observer"
+                               placeholder="Enter your name">
+                    </div>
+
+                    <div class="alert alert-info">
+                        <strong>Important:</strong> This is a student project demonstration.
+                        Do not submit sensitive personal information.
+                    </div>
+
+                    <button type="submit" class="btn btn-success btn-lg w-100">
+                        Submit Observation
+                    </button>
+
+                    <button type="reset" class="btn btn-outline-secondary w-100 mt-2">
+                        Clear Form
+                    </button>
+
+                </form>
+            </section>
+        </div>
+
+        <div class="col-lg-4">
+
+            <section class="card form-card shadow-sm p-4 mb-4">
+                <h2 class="h5">📋 How It Works</h2>
+                <ol class="ps-3 mb-0">
+                    <li class="mb-2">Select the medicinal plant.</li>
+                    <li class="mb-2">Enter the province, district, and date.</li>
+                    <li class="mb-2">Describe the plant's condition.</li>
+                    <li class="mb-2">Optionally attach a photo and notes.</li>
+                    <li>Submit your sample observation.</li>
+                </ol>
+            </section>
+
+            <section class="card form-card shadow-sm p-4">
+                <h2 class="h5">🌱 Why Record Observations?</h2>
+                <p>
+                    Observations can help researchers document plant distribution,
+                    habitat conditions, and possible conservation threats.
+                </p>
+                <a href="map.html" class="btn btn-outline-success">
+                    Explore Distribution Map
+                </a>
+            </section>
+
+        </div>
+    </div>
+
+    <div class="text-center mt-4">
+        <a href="plants.html" class="btn btn-success">← Back to Plant Database</a>
+    </div>
+
+</main>
+
+<footer class="text-center py-4 mt-4">
+    <div class="container">
+        Nepal Medicinal Flora Conservation and Biodiversity Monitoring System
+    </div>
+</footer>
+
+<script>
+    const form = document.getElementById("observationForm");
+    const plantName = document.getElementById("plantName");
+    const otherPlantGroup = document.getElementById("otherPlantGroup");
+    const otherPlant = document.getElementById("otherPlant");
+    const photoInput = document.getElementById("plantPhoto");
+    const photoPreview = document.getElementById("photoPreview");
+    const dateInput = document.getElementById("observationDate");
+
+    // Set today's date as the default.
+    dateInput.value = new Date().toISOString().slice(0, 10);
+    dateInput.max = new Date().toISOString().slice(0, 10);
+
+    // Show the extra plant-name field when "Other" is selected.
+    plantName.addEventListener("change", function () {
+        const isOther = this.value === "Other";
+        otherPlantGroup.classList.toggle("d-none", !isOther);
+        otherPlant.required = isOther;
+
+        if (!isOther) {
+            otherPlant.value = "";
+        }
+    });
+
+    // Show a preview of the selected photo.
+    photoInput.addEventListener("change", function () {
+        const file = this.files[0];
+
+        if (!file) {
+            photoPreview.removeAttribute("src");
+            photoPreview.style.display = "none";
+            return;
+        }
+
+        if (!file.type.startsWith("image/")) {
+            alert("Please select an image file.");
+            this.value = "";
+            photoPreview.removeAttribute("src");
+            photoPreview.style.display = "none";
+            return;
+        }
+
+        const reader = new FileReader();
+
+        reader.onload = function (event) {
+            photoPreview.src = event.target.result;
+            photoPreview.style.display = "block";
+        };
+
+        reader.readAsDataURL(file);
+    });
+
+    // Demonstration submission: validate the form and show a confirmation.
+    form.addEventListener("submit", function (event) {
+        event.preventDefault();
+
+        const selectedPlant = plantName.value === "Other"
+            ? otherPlant.value.trim()
+            : plantName.value;
+
+        if (!selectedPlant) {
+            alert("Please enter or select a plant name.");
+            return;
+        }
+
+        alert(
+            "Observation submitted for demonstration!\n\n" +
+            "Plant: " + selectedPlant + "\n" +
+            "Province: " + document.getElementById("province").value + "\n" +
+            "District: " + document.getElementById("district").value + "\n" +
+            "Date: " + dateInput.value + "\n\n" +
+            "Note: This sample observation has not been saved to a database."
+        );
+
+        form.reset();
+        otherPlantGroup.classList.add("d-none");
+        otherPlant.required = false;
+        photoPreview.removeAttribute("src");
+        photoPreview.style.display = "none";
+        dateInput.value = new Date().toISOString().slice(0, 10);
+        dateInput.max = new Date().toISOString().slice(0, 10);
+    });
+
+    // Clean up the preview when the form is cleared.
+    form.addEventListener("reset", function () {
+        setTimeout(function () {
+            otherPlantGroup.classList.add("d-none");
+            otherPlant.required = false;
+            photoPreview.removeAttribute("src");
+            photoPreview.style.display = "none";
+        }, 0);
+    });
+</script>
+
+</body>
+</html>

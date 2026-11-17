@@ -1,0 +1,166 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Plant Details | Nepal Medicinal Flora</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body { background: #f5f8f3; font-family: Arial, sans-serif; }
+        .navbar { background: #2f6b45; }
+        .plant-header { background: #e4efdf; border-radius: 16px; padding: 35px; }
+        .detail-card { background: white; border-radius: 14px; padding: 25px; height: 100%; }
+        .plant-icon { font-size: 70px; }
+        .info-label { color: #55715c; font-weight: bold; }
+        footer { background: #e4efdf; }
+    </style>
+</head>
+<body>
+
+<nav class="navbar navbar-expand-lg navbar-dark">
+    <div class="container">
+        <a class="navbar-brand fw-bold" href="index.html">🌿 Nepal Medicinal Flora</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="menu">
+            <div class="navbar-nav ms-auto">
+                <a class="nav-link" href="index.html">Home</a>
+                <a class="nav-link" href="plants.html">Plant Database</a>
+            </div>
+        </div>
+    </div>
+</nav>
+
+<main class="container py-5">
+    <a href="plants.html" class="text-success text-decoration-none">← Back to Plant Database</a>
+
+    <div id="plantContent" class="mt-3">
+        <section class="plant-header mb-4">
+            <div class="plant-icon" id="plantIcon"></div>
+            <h1 class="fw-bold mt-2" id="plantName"></h1>
+            <p class="lead mb-0" id="scientificName"></p>
+            <span class="badge mt-3" id="plantStatus"></span>
+        </section>
+
+        <div class="row g-4">
+            <div class="col-lg-7">
+                <section class="detail-card shadow-sm">
+                    <h2 class="h4 mb-3">About This Plant</h2>
+                    <p id="description"></p>
+                    <hr>
+                    <h2 class="h4 mb-3">Habitat</h2>
+                    <p id="habitat"></p>
+                    <hr>
+                    <h2 class="h4 mb-3">Conservation Information</h2>
+                    <p id="conservation"></p>
+                </section>
+            </div>
+
+            <div class="col-lg-5">
+                <section class="detail-card shadow-sm">
+                    <h2 class="h4 mb-4">Plant Information</h2>
+                    <p><span class="info-label">Scientific name:</span><br><span id="scientificInfo"></span></p>
+                    <p><span class="info-label">Family:</span><br><span id="family"></span></p>
+                    <p><span class="info-label">Province:</span><br><span id="province"></span></p>
+                    <p><span class="info-label">District:</span><br><span id="district"></span></p>
+                    <p><span class="info-label">Conservation status:</span><br><span id="statusText"></span></p>
+                    <p><span class="info-label">Main threats:</span><br><span id="threats"></span></p>
+                    <a href="plants.html" class="btn btn-success w-100 mt-3">Return to Plant Database</a>
+                </section>
+            </div>
+        </div>
+    </div>
+
+    <div id="notFound" class="alert alert-warning d-none mt-4">
+        <h2 class="h5">Plant not found</h2>
+        <p>Please return to the Plant Database and select a plant from the list.</p>
+        <a href="plants.html" class="btn btn-success">Open Plant Database</a>
+    </div>
+</main>
+
+<footer class="text-center py-4 mt-4">
+    <div class="container">Nepal Medicinal Flora Conservation and Biodiversity Monitoring System</div>
+</footer>
+
+<script>
+    const plants = {
+        chiraito: {
+            name: "Chiraito",
+            scientific: "Swertia chirayita",
+            family: "Gentianaceae",
+            province: "Koshi Province",
+            district: "Taplejung",
+            status: "Vulnerable",
+            icon: "🌱",
+            description: "Chiraito is a Himalayan medicinal herb traditionally used in herbal preparations. This demonstration record represents an example of medicinal plant information that a conservation monitoring system could store.",
+            habitat: "Mountain forests and open areas in Himalayan regions.",
+            threats: "Overharvesting and habitat loss.",
+            conservation: "Monitoring wild populations, protecting habitats, and encouraging responsible harvesting can support conservation."
+        },
+        tulsi: {
+            name: "Tulsi",
+            scientific: "Ocimum tenuiflorum",
+            family: "Lamiaceae",
+            province: "Bagmati Province",
+            district: "Kathmandu",
+            status: "Least Concern",
+            icon: "🍃",
+            description: "Tulsi is an aromatic herb commonly cultivated in homes and gardens. It has a long history of use in traditional practices.",
+            habitat: "Gardens, home compounds, and other cultivated areas.",
+            threats: "Plant health and local growing conditions can be monitored.",
+            conservation: "Maintaining healthy cultivated plants and documenting observations can help preserve local plant knowledge."
+        },
+        jatamansi: {
+            name: "Jatamansi",
+            scientific: "Nardostachys jatamansi",
+            family: "Caprifoliaceae",
+            province: "Gandaki Province",
+            district: "Mustang",
+            status: "Endangered",
+            icon: "🌿",
+            description: "Jatamansi is a medicinal plant associated with high-altitude Himalayan environments and traditional uses.",
+            habitat: "High-altitude Himalayan meadows and mountain slopes.",
+            threats: "Habitat loss and overharvesting.",
+            conservation: "Protecting mountain habitats, monitoring populations, and supporting sustainable harvesting are important conservation measures."
+        }
+    };
+
+    function getStatusClass(status) {
+        if (status === "Vulnerable") return "bg-warning text-dark";
+        if (status === "Least Concern") return "bg-success";
+        if (status === "Endangered") return "bg-danger";
+        return "bg-secondary";
+    }
+
+    const params = new URLSearchParams(window.location.search);
+    const plantId = params.get("plant");
+    const plant = plants[plantId];
+
+    if (plant) {
+        document.title = plant.name + " | Nepal Medicinal Flora";
+
+        document.getElementById("plantIcon").textContent = plant.icon;
+        document.getElementById("plantName").textContent = plant.name;
+        document.getElementById("scientificName").textContent = plant.scientific;
+        document.getElementById("scientificInfo").textContent = plant.scientific;
+        document.getElementById("family").textContent = plant.family;
+        document.getElementById("province").textContent = plant.province;
+        document.getElementById("district").textContent = plant.district;
+        document.getElementById("plantStatus").textContent = plant.status;
+        document.getElementById("plantStatus").className = "badge mt-3 " + getStatusClass(plant.status);
+        document.getElementById("statusText").textContent = plant.status;
+        document.getElementById("description").textContent = plant.description;
+        document.getElementById("habitat").textContent = plant.habitat;
+        document.getElementById("threats").textContent = plant.threats;
+        document.getElementById("conservation").textContent = plant.conservation;
+    } else {
+        document.getElementById("plantContent").classList.add("d-none");
+        document.getElementById("notFound").classList.remove("d-none");
+    }
+</script>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

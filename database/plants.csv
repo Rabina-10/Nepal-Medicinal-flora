@@ -1,0 +1,96 @@
+﻿S.N.,Common Name,Scientific Name,medicinal use,Province,District
+1,Ghodtapre,Centella asiatica,1. Wound care and skin health,Bagmati,Kathmandu
+2,Bojho,Acorus calamus,2. Digestive problems and cough,Koshi,Ilam
+3,Kurilo,Asparagus racemosus,3. Digestive and reproductive health,Bagmati,Sindhupalchok
+4,Akashbeli,Cuscuta reflexa,4. Skin and digestive problems,Koshi,Jhapa
+5,Apamarga,Achyranthes aspera,5. Digestive problems and skin care,Lumbini,Dang
+6,Tulsi,Ocimum tenuiflorum,"6. Cough, cold, and sore throat",Bagmati,Kathmandu
+7,Neem,Azadirachta indica,7. Skin care and oral hygiene,Madhesh,Parsa
+8,Amala,Phyllanthus emblica,8. Digestive health,Bagmati,Chitwan
+9,Harro,Terminalia chebula,9. Constipation and digestion,Koshi,Dhankuta
+10,Barro,Terminalia bellirica,10. Digestive problems and cough,Koshi,Sunsari
+11,Timur,Zanthoxylum armatum,11. Toothache and digestion,Koshi,Sankhuwasabha
+12,Tejpat,Cinnamomum tamala,12. Digestion and appetite,Koshi,Ilam
+13,Ritha,Sapindus mukorossi,13. Hair and skin cleansing,Bagmati,Makwanpur
+14,Sarpagandha,Rauvolfia serpentina,14. High blood pressure; medical supervision required,Lumbini,Banke
+15,Chiraito,Swertia chirayita,15. Fever and digestion,Koshi,Ilam
+16,Satuwa,Paris polyphylla,16. Inflammation and wound care,Gandaki,Kaski
+17,Kutki,Neopicrorhiza scrophulariiflora,17. Digestive and liver complaints,Karnali,Jumla
+18,Jatamasi,Nardostachys grandiflora,18. Relaxation and sleep,Karnali,Jumla
+19,Sugandhawal,Valeriana jatamansi,19. Sleep problems,Gandaki,Kaski
+20,Pakhanbed,Bergenia ciliata,20. Urinary complaints,Gandaki,Kaski
+21,Atis,Aconitum heterophyllum,21. Fever and digestion,Karnali,Jumla
+22,Bikh/Bis,Aconitum spicatum,22. Pain relief; highly toxic plant,Karnali,Jumla
+23,Somlata,Ephedra gerardiana,23. Respiratory complaints; potential toxicity,Gandaki,Mustang
+24,Panch Aunle,Dactylorhiza hatagirea,24. General weakness,Karnali,Jumla
+25,Padamchal,Rheum australe,25. Constipation and digestion,Gandaki,Manang
+26,Chulthi Amilo,Rheum nobile,26. Medicinal use requires verification,Gandaki,Manang
+27,Pipla,Piper longum,27. Cough and respiratory complaints,Koshi,Morang
+28,Ban Bhanta,Podophyllum hexandrum,28. Potentially toxic; avoid self-treatment,Karnali,Jumla
+29,Bajradanti,Potentilla fulgens,29. Toothache and gum care,Koshi,Dhankuta
+30,Majitho,Rubia manjith,30. Skin problems and red dye,Bagmati,Lalitpur
+31,Sugandhakokila,Cinnamomum tenuipile,31. Digestive complaints,Bagmati,Makwanpur
+32,Gurjo,Tinospora sinensis,32. Traditional wellness use; verify evidence,Lumbini,Dang
+33,Gurjo,Tinospora cordifolia,33. Fever and digestion,Lumbini,Dang
+34,Haldi,Curcuma longa,34. Inflammation and digestion,Madhesh,Parsa
+35,Aduwa/Ginger,Zingiber officinale,35. Nausea and indigestion,Koshi,Jhapa
+36,Lasun/Garlic,Allium sativum,36. Traditional cardiovascular and respiratory uses,Koshi,Morang
+37,Ban Lasun,Allium wallichii,37. Medicinal use requires verification,Karnali,Jumla
+38,Pudina,Mentha arvensis,38. Indigestion and gas,Koshi,Ilam
+39,Lemongrass,Cymbopogon flexuosus,39. Herbal tea; medicinal use requires verification,Koshi,Jhapa
+40,Ashwagandha,Withania somnifera,40. Stress and sleep,Gandaki,Kaski
+41,Ghritkumari,Aloe vera,41. Minor skin irritation,Madhesh,Parsa
+42,Ghodjibrey,Ageratum conyzoides,42. Minor wounds and skin problems,Koshi,Ilam
+43,Banmara,Ageratina adenophora,43. No recommended use; invasive plant,Koshi,Ilam
+44,Sisnu,Urtica dioica,44. Traditional uses require verification,Koshi,Ilam
+45,Dubo,Cynodon dactylon,45. Minor wounds and urinary complaints,Bagmati,Chitwan
+46,Chiraito group,Swertia angustifolia,46. Digestive complaints and fever,Koshi,Ilam
+47,Titepati,Artemisia indica,47. Digestive complaints and menstrual discomfort,Koshi,Ilam
+48,Mugwort,Artemisia vulgaris,48. Digestive complaints and menstrual discomfort,Bagmati,Lalitpur
+49,Dhurseli,Rhododendron arboreum,49. Aromatic traditional preparations,Karnali,Jumla
+50,Sunpati,Rhododendron anthopogon,50. Respiratory complaints and aromatic use,Karnali,Jumla
+51,Lauth Salla,Taxus wallichiana,51. Source of cancer-medicine compounds; toxic plant,Karnali,Jumla
+52,Yarsagumba,Ophiocordyceps sinensis,52. Edible mushroom; not a proven treatment,Karnali,Jumla
+53,Gucchi Chyau,Morchella conica,53. Medicinal use depends on lichen species,Gandaki,Manang
+54,Jhyau,Parmelia spp.,54. Digestive complaints and diarrhoea,Koshi,Morang
+55,Bel,Aegle marmelos,55. Guava leaves traditionally used for diarrhoea,Madhesh,Bara
+56,Amba,Psidium guajava,56. Digestive and throat complaints,Bagmati,Chitwan
+57,Kaphal,Myrica esculenta,57. Cough and respiratory complaints,Bagmati,Chitwan
+58,Asuro,Justicia adhatoda,58. Highly toxic; avoid self-treatment,Koshi,Jhapa
+59,Dhaturo,Datura metel,59. Toxic latex; avoid self-treatment,Koshi,Sunsari
+60,Aak,Calotropis gigantea,60. Hair and scalp care,Koshi,Ilam
+61,Bhringraj,Eclipta prostrata,61. Aromatic use; medicinal claims require verification,Bagmati,Lalitpur
+62,Khus,Chrysopogon zizanioides,62. Broom-making; medicinal use unverified,Koshi,Ilam
+63,Amriso,Thysanolaena latifolia,63. Food use; medicinal use requires verification,Bagmati,Kavrepalanchok
+64,Koiralo,Bauhinia variegata,64. Joint pain and swelling,Bagmati,Lalitpur
+65,Simali,Vitex negundo,65. Joint pain and swelling,Bagmati,Lalitpur
+66,Siris,Albizia lebbeck,66. Timber; medicinal use requires verification,Koshi,Sunsari
+67,Sissoo,Dalbergia sissoo,67. Traditional topical resin use,Bagmati,Lalitpur
+68,Sal,Shorea robusta,68. Digestive and urinary complaints,Lumbini,Dang
+69,Simal,Bombax ceiba,69. Traditional blood-sugar-related use,Madhesh,Bara
+70,Jamun,Syzygium cumini,70. Food use; medicinal use requires verification,Bagmati,Lalitpur
+71,Amaro,Spondias pinnata,71. Digestive and menstrual complaints,Bagmati,Lalitpur
+72,Gurans,Rhododendron arboreum,72. Skin and digestive complaints,Bagmati,Lalitpur
+73,Chutro,Berberis aristata,73. Medicinal use requires species verification,Karnali,Jumla
+74,Atis (verify name),Delphinium himalayae,74. Food and traditional use; correct processing needed,Karnali,Jumla
+75,Bhyakur,Dioscorea deltoidea,75. Toxic plant; avoid self-treatment,Karnali,Jumla
+76,Kalo Musali,Curculigo orchioides,76. Traditional tonic use; verify Nepal records,Karnali,Jumla
+77,Safed Musali,Chlorophytum borivilianum,77. Urinary complaints and swelling,Koshi,Morang
+78,Punarnava,Boerhavia diffusa,78. Traditional external use; verify evidence,Bagmati,Lalitpur
+79,Patharchatta,Kalanchoe pinnata,79. Memory and concentration support,Koshi,Dhankuta
+80,Brahmi,Bacopa monnieri,80. Wound care and memory support,Koshi,Ilam
+81,Mandukparni,Centella asiatica,81. High blood pressure; medical supervision required,Koshi,Ilam
+82,Sarpagandha,Rauvolfia serpentina,82. Young shoots used as food,Koshi,Ilam
+83,Bans,Bambusa spp.,83. Medicinal use requires verification,Koshi,Ilam
+84,Chilaune,Schima wallichii,84. Medicinal use requires verification,Koshi,Ilam
+85,Uttis,Alnus nepalensis,85. Medicinal use unverified; latex may be harmful,Koshi,Ilam
+86,Khirro,Sapium insigne,86. Food and timber,Koshi,Ilam
+87,Katus,Castanopsis indica,87. Skin care and topical preparations,Koshi,Ilam
+88,Chiuri,Diploknema butyracea,88. Skin and digestive complaints,Koshi,Ilam
+89,Talispatra,Abies spectabilis,89. Medicinal use requires verification,Karnali,Jumla
+90,Bhojpatra,Betula utilis,90. Aromatic smoke and fumigation,Karnali,Jumla
+91,Dhupi,Juniperus indica,91. Culinary use; traditional digestive support,Karnali,Jumla
+92,Jimbu,Allium hypsistum,92. Indigestion and gas,Koshi,Dhankuta
+93,Ban Ajwain,Carum carvi,93. Indigestion and gas,Koshi,Ilam
+94,Jwano,Trachyspermum ammi,94. Digestive and blood-sugar-related use,Koshi,Ilam
+95,Methi,Trigonella foenum-graecum,95. Digestive and appetite support,Koshi,Ilam

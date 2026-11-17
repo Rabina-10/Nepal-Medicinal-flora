@@ -1,0 +1,10 @@
+# Never upload your real local DB password
+config/db.local.php
+
+# Editor / OS files
+.idea/
+.vscode/
+.DS_Store
+
+# User uploaded photos
+uploads/

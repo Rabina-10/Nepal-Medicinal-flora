@@ -1,0 +1,5 @@
+.git
+.gitignore
+.idea
+config/db.local.php
+Dockerfile
