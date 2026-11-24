@@ -4,6 +4,15 @@ require_once "config/db.php";
 // Get search keyword
 $search = trim($_GET['search'] ?? '');
 
+// Same keyword with spaces/punctuation removed, so "aloevera" matches "Aloe vera"
+$normalizedSearch = preg_replace('/[^\p{L}\p{N}]/u', '', mb_strtolower($search));
+
+// SQL expression that lowercases a column and strips spaces and common punctuation
+function normalizedColumn($column)
+{
+    return "REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(LOWER($column),' ',''),'-',''),'/',''),'.',''),',','')";
+}
+
 // Fetch plants from database
 $sql = "SELECT
             p.plant_id,
@@ -20,13 +29,15 @@ $sql = "SELECT
         LEFT JOIN Plant_Locations l
             ON p.plant_id = l.plant_id";
 
-if ($search !== '') {
-    $sql .= " WHERE LOWER(p.common_name) LIKE LOWER(?)
-              OR LOWER(p.scientific_name) LIKE LOWER(?)
-              OR LOWER(p.family) LIKE LOWER(?)
-              OR LOWER(p.medicinal_uses) LIKE LOWER(?)
-              OR LOWER(l.province) LIKE LOWER(?)
-              OR LOWER(l.district) LIKE LOWER(?)";
+$hasSearch = ($normalizedSearch !== '');
+
+if ($hasSearch) {
+    $sql .= " WHERE " . normalizedColumn('p.common_name') . " LIKE ?
+              OR " . normalizedColumn('p.scientific_name') . " LIKE ?
+              OR " . normalizedColumn('p.family') . " LIKE ?
+              OR " . normalizedColumn('p.medicinal_uses') . " LIKE ?
+              OR " . normalizedColumn('l.province') . " LIKE ?
+              OR " . normalizedColumn('l.district') . " LIKE ?";
 }
 
 $sql .= " ORDER BY p.common_name ASC";
@@ -37,8 +48,8 @@ if (!$stmt) {
     die("Database query error: " . $conn->error);
 }
 
-if ($search !== '') {
-    $keyword = "%" . $search . "%";
+if ($hasSearch) {
+    $keyword = "%" . $normalizedSearch . "%";
 
     $stmt->bind_param(
             "ssssss",
