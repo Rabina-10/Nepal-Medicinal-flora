@@ -21,12 +21,12 @@ $sql = "SELECT
             ON p.plant_id = l.plant_id";
 
 if ($search !== '') {
-    $sql .= " WHERE p.common_name LIKE ?
-              OR p.scientific_name LIKE ?
-              OR p.family LIKE ?
-              OR p.medicinal_uses LIKE ?
-              OR l.province LIKE ?
-              OR l.district LIKE ?";
+    $sql .= " WHERE LOWER(p.common_name) LIKE LOWER(?)
+              OR LOWER(p.scientific_name) LIKE LOWER(?)
+              OR LOWER(p.family) LIKE LOWER(?)
+              OR LOWER(p.medicinal_uses) LIKE LOWER(?)
+              OR LOWER(l.province) LIKE LOWER(?)
+              OR LOWER(l.district) LIKE LOWER(?)";
 }
 
 $sql .= " ORDER BY p.common_name ASC";
@@ -304,7 +304,7 @@ $totalPlants = $result->num_rows;
                                 View Details
                             </a>
 
-                            <a href="map.php" class="btn btn-outline-success btn-sm">
+                            <a href="map.php?plant_id=<?php echo (int) $plant['plant_id']; ?>" class="btn btn-outline-success btn-sm">
                                 View Map
                             </a>
 

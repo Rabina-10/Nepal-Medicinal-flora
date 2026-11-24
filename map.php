@@ -1,9 +1,12 @@
-
 <?php
 require_once "config/db.php";
 
+// Plant to focus on (set when coming from the "View Map" button)
+$focusId = (int) ($_GET['plant_id'] ?? 0);
+
 // Fetch medicinal plants and their geographical locations
 $sql = "SELECT
+            p.plant_id,
             p.common_name,
             p.scientific_name,
             p.medicinal_uses,
@@ -168,6 +171,9 @@ if ($result) {
 <script>
 
     // Plant information from PHP database
+    const focusId = <?php echo $focusId; ?>;
+    let focusMarker = null;
+
     const plants = <?php
             echo json_encode(
                     $plants,
@@ -201,6 +207,11 @@ if ($result) {
 
         const marker = L.marker([latitude, longitude]).addTo(map);
 
+        // Remember the marker of the plant chosen with "View Map"
+        if (Number(plant.plant_id) === focusId) {
+            focusMarker = marker;
+        }
+
 
         // Plant information popup
         const popupContent = `
@@ -224,6 +235,13 @@ if ($result) {
         marker.bindPopup(popupContent);
 
     });
+
+
+    // Zoom to the selected plant and open its popup
+    if (focusMarker) {
+        map.setView(focusMarker.getLatLng(), 11);
+        focusMarker.openPopup();
+    }
 
 
     // Prevent HTML injection in popup information
